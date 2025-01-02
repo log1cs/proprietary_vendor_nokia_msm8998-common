@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket \
     libmm-color-convertor \
-    libmmosal \
+    libmmosal_vendor \
     libmulawdec \
     libqcc_file_agent \
     libqcci_legacy \

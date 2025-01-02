@@ -2037,7 +2037,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmmosal",
+    name: "libmmosal_vendor",
+    stem: "libmmosal",
     owner: "nokia",
     strip: {
         none: true,
@@ -2131,7 +2132,6 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "libhidlbase",
                 "vendor.qti.hardware.qccsyshal@1.0",
-                "libmmosal",
                 "libc++",
                 "libc",
                 "libm",
@@ -2150,7 +2150,6 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "libhidlbase",
                 "vendor.qti.hardware.qccsyshal@1.0",
-                "libmmosal",
                 "libc++",
                 "libc",
                 "libm",
@@ -3017,7 +3016,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libmmosal",
                 "libutils",
                 "libwfdcommonutils_proprietary",
                 "libwfdmmservice",
@@ -9171,7 +9169,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "liblog",
-                "libmmosal",
                 "libc++",
                 "libc",
                 "libm",
@@ -9186,7 +9183,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "liblog",
-                "libmmosal",
                 "libc++",
                 "libc",
                 "libm",
