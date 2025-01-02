@@ -138,6 +138,10 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmm-color-convertor \
     libmmosal_vendor \
+    libmmsw_detail_enhancement \
+    libmmsw_math \
+    libmmsw_opencl \
+    libmmsw_platform \
     libmulawdec \
     libqcbor \
     libqcci_legacy \
@@ -160,7 +164,11 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_qtiflacdec \
     libsysmon_cdsp_skel \
     libtinyxml2_1 \
+    libvpphvx \
+    libvpplibrary \
     vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
     libOmxDsdDec \
     libOmxVideoDSMode \
     libUBWC \
@@ -234,10 +242,6 @@ PRODUCT_PACKAGES += \
     libhdcpsrm \
     liblqe \
     libmm-hdcpmgr \
-    libmmsw_detail_enhancement \
-    libmmsw_math \
-    libmmsw_opencl \
-    libmmsw_platform \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
@@ -279,8 +283,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libtrustedapploader \
     libtzdrmgenprov \
-    libvpphvx \
-    libvpplibrary \
     libwms \
     libwqe \
     libwvhidl \
@@ -346,8 +348,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.factory@1.0 \
