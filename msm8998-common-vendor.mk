@@ -140,7 +140,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libmulawdec \
     libqcbor \
-    libqcc_file_agent \
     libqcci_legacy \
     libqdi \
     libqdp \
@@ -249,6 +248,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
