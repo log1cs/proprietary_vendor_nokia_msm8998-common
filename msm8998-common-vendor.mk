@@ -139,6 +139,7 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmmosal_vendor \
     libmulawdec \
+    libqcbor \
     libqcc_file_agent \
     libqcci_legacy \
     libqdi \
@@ -153,10 +154,13 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
+    libqrtr \
+    libsdm-color \
     libsdm-disp-vndapis \
     libsdsprpc \
     libstagefright_soft_qtiflacdec \
     libsysmon_cdsp_skel \
+    libtinyxml2_1 \
     vendor.qti.hardware.dsp@1.0 \
     libOmxDsdDec \
     libOmxVideoDSMode \
@@ -169,6 +173,7 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation \
     libscveObjectTracker \
     libstreamparser \
+    libvideoutils \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
     com.qualcomm.qti.dpm.api@1.0_vendor \
@@ -248,7 +253,6 @@ PRODUCT_PACKAGES += \
     libqcrilFramework \
     libqcrildatactl \
     libqisl \
-    libqrtr \
     libqseed3 \
     libqsocket \
     librcc \
@@ -262,7 +266,6 @@ PRODUCT_PACKAGES += \
     librmp \
     librpmb \
     libsdedrm \
-    libsdm-color \
     libsdm-diag \
     libsdmextension \
     libsecureui \
@@ -274,7 +277,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libthermalfeature \
     libtime_genoff \
-    libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
     libvpphvx \
