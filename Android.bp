@@ -3016,8 +3016,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libutils",
-                "libwfdcommonutils_proprietary",
-                "libwfdmmservice",
                 "libbinder",
                 "libc++",
                 "libc",
