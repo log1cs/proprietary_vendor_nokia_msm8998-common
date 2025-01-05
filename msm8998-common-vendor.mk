@@ -123,12 +123,12 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
+    libdisplayconfig.qti \
     libdsutils \
     libfastcrc \
     libfastcvopt \
     libfastrpc_utf_stub \
     libgsl \
-    libhdr_tm \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
@@ -138,8 +138,12 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmm-color-convertor \
     libmmosal \
+    libmmsw_detail_enhancement \
+    libmmsw_math \
+    libmmsw_opencl \
+    libmmsw_platform \
     libmulawdec \
-    libqcc_file_agent \
+    libqcbor \
     libqcci_legacy \
     libqdi \
     libqdp \
@@ -153,11 +157,16 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
+    libqrtr \
     libsdm-disp-vndapis \
     libsdsprpc \
     libstagefright_soft_qtiflacdec \
     libsysmon_cdsp_skel \
+    libvpphvx \
+    libvpplibrary \
     vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
     libOmxDsdDec \
     libOmxVideoDSMode \
     libUBWC \
@@ -169,6 +178,10 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation \
     libscveObjectTracker \
     libstreamparser \
+    libvideoutils \
+    libwfdcommonutils_proprietary \
+    libwfddisplayconfig_proprietary \
+    libwfdmmservice \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
     com.qualcomm.qti.dpm.api@1.0_vendor \
@@ -220,7 +233,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libdisp-aba \
-    libdisplayconfig.qti \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
@@ -228,12 +240,9 @@ PRODUCT_PACKAGES += \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
+    libhdr_tm \
     liblqe \
     libmm-hdcpmgr \
-    libmmsw_detail_enhancement \
-    libmmsw_math \
-    libmmsw_opencl \
-    libmmsw_platform \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
@@ -244,11 +253,11 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
     libqisl \
-    libqrtr \
     libqseed3 \
     libqsocket \
     librcc \
@@ -277,8 +286,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
-    libvpphvx \
-    libvpplibrary \
     libwms \
     libwqe \
     libwvhidl \
@@ -344,8 +351,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.factory@1.0 \
@@ -361,8 +366,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.power.pasrmanager@1.0 \
-    libmmosal \
-    libmmparser_lite \
     com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
     lib-imscamera \
