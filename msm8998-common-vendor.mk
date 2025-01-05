@@ -97,23 +97,9 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     android.hardware.health@2.0-impl-2.1 \
     vulkan.msm8998 \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
     libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libadreno_utils \
     libadsp_default_listener \
@@ -142,7 +128,6 @@ PRODUCT_PACKAGES += \
     libmmsw_math \
     libmmsw_opencl \
     libmmsw_platform \
-    libmulawdec \
     libqcbor \
     libqcci_legacy \
     libqdi \
@@ -160,19 +145,17 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libsdm-disp-vndapis \
     libsdsprpc \
-    libstagefright_soft_qtiflacdec \
     libsysmon_cdsp_skel \
     libvpphvx \
     libvpplibrary \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
-    libOmxDsdDec \
     libOmxVideoDSMode \
     libUBWC \
     libadsp_hvx_callback_skel \
     libadsp_hvx_stub \
-    libdsd2pcm \
+    libmulawdec \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
