@@ -117,7 +117,6 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libmdmdetect \
     libmdsprpc \
-    libmm-color-convertor \
     libmmosal \
     libmmsw_detail_enhancement \
     libmmsw_math \
